@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8E5F6;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 213, 219);
+   padding: 30px;
+   width: 30%;
+    
+    border-radius: 25px;
+    margin-top: 10em;
+
+}
+.apps{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+p{
+    margin-top: -7px;
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: 600;
+}
+button{
+    margin-top: 5em;
+    background-color: white;
+    border-radius: 15px;
+    min-height: 20px;
+    border: none;
+
+}
